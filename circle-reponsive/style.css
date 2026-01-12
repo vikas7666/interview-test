@@ -1,0 +1,26 @@
+.container{
+    max-width: 1250px;
+    width:100%;
+}
+.circle-container{
+    text-align: center;
+}
+.circle-left, .circle-middle, .circle-right {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+     width: 100px;
+     height: 100px;
+     display: inline-block;
+    -webkit-border-radius: 50%;
+}
+.circle-left{
+    background-color: #e0b8b8;
+}
+.circle-middle{
+    background-color: #9de397;
+}
+.circle-right{
+    background-color: #bbc54a;
+}
